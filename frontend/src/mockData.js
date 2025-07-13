@@ -7,7 +7,8 @@ export const mockData = {
     location: "Mumbai, India",
     email: "tarunrathod00805@gmail.com",
     linkedin: "https://www.linkedin.com/in/tarunnnrathoddd/",
-    github: "https://github.com/tarunnnrathoddd"
+    github: "https://github.com/tarunnnrathoddd",
+    profileImage: "https://github.com/tarunnnrathoddd.png"
   },
   
   skills: [
