@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from './ui/button';
 import { Card } from './ui/card';
+import { Avatar, AvatarImage, AvatarFallback } from './ui/avatar';
 import { ArrowRight, Code, Zap, Users } from 'lucide-react';
 import { mockData } from '../mockData';
 
@@ -14,6 +15,20 @@ const Home = () => {
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-background via-background to-secondary/20">
         <div className="max-w-7xl mx-auto">
           <div className="text-center space-y-8">
+            {/* Profile Image */}
+            <div className="flex justify-center mb-8">
+              <Avatar className="w-32 h-32 sm:w-40 sm:h-40 ring-4 ring-primary/20 shadow-xl hover:ring-primary/40 transition-all duration-300 transform hover:scale-105">
+                <AvatarImage 
+                  src={personal.profileImage} 
+                  alt={personal.name}
+                  className="object-cover"
+                />
+                <AvatarFallback className="text-4xl font-bold bg-gradient-to-br from-blue-500 to-purple-600 text-white">
+                  {personal.name.split(' ').map(n => n[0]).join('')}
+                </AvatarFallback>
+              </Avatar>
+            </div>
+
             {/* Main heading with animation */}
             <div className="space-y-4">
               <h1 className="text-4xl sm:text-6xl lg:text-7xl font-black tracking-tight">
