@@ -5,9 +5,9 @@ export const mockData = {
     title: "Software Developer",
     bio: "Passionate software developer with 3+ years of experience building scalable web applications. I love turning ideas into reality through clean, efficient code and creating user experiences that make a difference.",
     location: "Mumbai, India",
-    email: "tarun.rathod@example.com",
-    linkedin: "https://linkedin.com/in/tarun-rathod",
-    github: "https://github.com/tarun-rathod"
+    email: "tarunrathod00805@gmail.com",
+    linkedin: "https://www.linkedin.com/in/tarunnnrathoddd/",
+    github: "https://github.com/tarunnnrathoddd"
   },
   
   skills: [
