@@ -2,6 +2,7 @@ import React from 'react';
 import { Card } from './ui/card';
 import { Badge } from './ui/badge';
 import { Progress } from './ui/progress';
+import { Avatar, AvatarImage, AvatarFallback } from './ui/avatar';
 import { User, MapPin, Mail } from 'lucide-react';
 import { mockData } from '../mockData';
 
@@ -49,6 +50,20 @@ const About = () => {
                 <div className="flex items-center space-x-3">
                   <User className="h-6 w-6 text-primary" />
                   <h2 className="text-2xl font-bold text-foreground">Personal Info</h2>
+                </div>
+                
+                {/* Profile Image */}
+                <div className="flex justify-center">
+                  <Avatar className="w-24 h-24 ring-4 ring-primary/20 shadow-lg hover:ring-primary/40 transition-all duration-300 transform hover:scale-105">
+                    <AvatarImage 
+                      src={personal.profileImage} 
+                      alt={personal.name}
+                      className="object-cover"
+                    />
+                    <AvatarFallback className="text-2xl font-bold bg-gradient-to-br from-blue-500 to-purple-600 text-white">
+                      {personal.name.split(' ').map(n => n[0]).join('')}
+                    </AvatarFallback>
+                  </Avatar>
                 </div>
                 
                 <div className="space-y-4">
