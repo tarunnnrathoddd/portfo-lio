@@ -3,8 +3,8 @@ export const mockData = {
   personal: {
     name: "Tarun Rathod",
     title: "Software Developer",
-    bio: "Passionate software developer with 3+ years of experience building scalable web applications. I love turning ideas into reality through clean, efficient code and creating user experiences that make a difference.",
-    location: "Mumbai, India",
+    bio: "Passionate software developer with having experience building scalable web applications. I love turning ideas into reality through clean, efficient code and creating user experiences that make a difference.",
+    location: "Pune, Maharashtra, India",
     email: "tarunrathod00805@gmail.com",
     linkedin: "https://www.linkedin.com/in/tarunnnrathoddd/",
     github: "https://github.com/tarunnnrathoddd",
@@ -27,21 +27,21 @@ export const mockData = {
   projects: [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with React frontend, Node.js backend, and MongoDB. Features include user authentication, shopping cart, payment integration, and admin dashboard.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "Material-UI"],
-      liveDemo: "https://ecommerce-demo.example.com",
-      github: "https://github.com/tarun-rathod/ecommerce-platform",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop"
+      title: "PCCOE-ACM-Hacktoberfest-2023",
+      description: "Full-stack event website with HTML, CSS, JavaScript, GitHub API. Features include user registeration, schedule, certificaiton, and instructions.",
+      technologies: ["HTML", "CSS", "JavaScript", "GitHub API"],
+      liveDemo: "https://pccoe-acm-hacktoberfest-2023.vercel.app/",
+      github: "https://github.com/tarunnnrathoddd",
+      image: "https://res.cloudinary.com/ds8x7mqbc/image/upload/v1752482369/PCCOE-ACM-Hacktoberfest-2023_xouoxt.png"
     },
     {
       id: 2,
-      title: "Task Management App",
+      title: "ANANTYA WEBSITE",
       description: "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features. Built with React and Firebase.",
-      technologies: ["React", "Firebase", "Material-UI", "Socket.io"],
-      liveDemo: "https://taskmaster-demo.example.com",
-      github: "https://github.com/tarun-rathod/task-management",
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop"
+      technologies: ["NextJS", "Cloudinary", "GitHub", "MongoDB"],
+      liveDemo: "https://anantya24.vercel.app/",
+      github: "https://github.com/tarunnnrathoddd",
+      image: "https://res.cloudinary.com/ds8x7mqbc/image/upload/v1752483098/Screenshot_2025-07-14_at_2.18.45_PM_hkythu.png"
     },
     {
       id: 3,
