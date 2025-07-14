@@ -1,0 +1,10 @@
+# netlify.toml
+[build]
+  base = "frontend"
+  publish = "build"   # Use "dist" if your build output is in 'dist'
+  command = "npm run build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
