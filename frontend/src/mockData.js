@@ -65,7 +65,7 @@ export const mockData = {
       liveDemo: "https://mychatbot-pi-ten.vercel.app/",
       github: "https://github.com/tarunnnrathoddd",
       image:
-        "https://res.cloudinary.com/ds8x7mqbc/image/upload/v1752487213/9635909_p4zc4l.png",
+        "https://res.cloudinary.com/ds8x7mqbc/image/upload/v1752488124/3d-artificial-intelligence-robotic-character-600nw-2419497045_hl1izq.jpg",
     },
     {
       id: 4,
@@ -84,8 +84,8 @@ export const mockData = {
       liveDemo: "https://uphaar-admin.vercel.app/home", // Add if available
       github: "https://github.com/tarunnnrathoddd", // Replace with actual repo if separate
       image:
-        "https://res.cloudinary.com/ds8x7mqbc/image/upload/v1752487672/Screenshot_2025-07-14_at_3.37.45_PM_tpkdxh.png", // Replace with relevant image if different
-    }
+        "https://res.cloudinary.com/ds8x7mqbc/image/upload/v1752488169/rkpac8agcua6mnnvfkk0.jpg", // Replace with relevant image if different
+    },
     // {
     //   id: 5,
     //   title: "AI Code Assistant",
